@@ -67,9 +67,8 @@
         private static bool entitydefImported_ = false;
         private static bool isImportServerErrorsDescr_ = false;
 
-        private string _ip = "192.168.0.104";
-
-        private UInt16 _port = 20014;
+        private string _ip = "127.0.0.1";
+        private UInt16 _port = 20013;
 
         public string baseappIP = "";
         public UInt16 baseappPort = 0;
@@ -250,7 +249,6 @@
 
         public string getIP()
         {
-            Dbg.ERROR_MSG("ip" + _ip);
             return _ip;
         }
 
